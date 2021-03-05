@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import ReactDOM from 'react-dom';
+import React, {  useState } from 'react';
 import './css/App.css';
 import About from './components/about';
 import Contact from './components/contact';
 import Resume from './components/resume';
 import logo from './img/profile-img.jpg';
 import Scroll from './components/scroll';
-import { ContactSupportOutlined } from "@material-ui/icons";
-import { Link, animateScroll as scroll } from "react-scroll";
 
 function App(params) {
 

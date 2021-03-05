@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import '../css/about.css';
 import img3 from "../img/profile-img.jpg"
 
-function About(params) {
+function About() {
     return (<div>
 
 
